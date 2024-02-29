@@ -69,6 +69,7 @@ def main():
             video_id = input('Enter the id of the video: ')
             delete_videos(video_id)
         elif option == '5':
+            print('Goodbye!')
             break
         else:
             print('Invalid option')
